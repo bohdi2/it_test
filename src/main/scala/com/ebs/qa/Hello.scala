@@ -1,7 +1,7 @@
 package com.ebs.qa
 
-object HelloWorld { 
+object HelloWorld {
   def main(args: Array[String]) { 
-    println("Hello, world!")
-  } 
+    println("src/main/scala says Hello, world!")
+  }
 }

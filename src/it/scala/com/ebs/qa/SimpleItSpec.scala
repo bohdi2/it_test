@@ -1,13 +1,11 @@
 package com.ebs.qa
 
-package com.ebs.qa
-
 import collection.mutable.Stack
 import org.scalatest._
 
 class SimpleItSpec extends FlatSpec with Matchers {
 
-    "A Stack" should "pop values in last-in-first-out order" in {
+    "INTEGRATION TEST Stack" should "pop values in last-in-first-out order" in {
         val stack = new Stack[Int]
         stack.push(11)
         stack.push(22)
